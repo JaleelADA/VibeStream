@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-57n&m=_o+fakjn!z*+#s58nh1z-otiq9sb)@k_+-s4ua3p6ewa
 DEBUG = True
 
 host = 'https://ed-6533704796733440.educative.run'
-ALLOWED_HOSTS = [host[8:]]
+ALLOWED_HOSTS = [host[8:], '127.0.0.1', 'localhost']]
 
 
 # Application definition
